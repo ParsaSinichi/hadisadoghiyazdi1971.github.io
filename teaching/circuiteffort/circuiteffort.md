@@ -195,3 +195,33 @@ header:
 <a href="/teaching/circuiteffort/iot-system" style="text-decoration:underline; color:green;" target="_blank"><strong>اینترنت اشیا</strong></a>
 
 
+<!--25-->
+<div class="english-text">
+<strong>DC Motor</strong>
+</div>
+<a href="/teaching/circuiteffort/DC_Motor_fa" style="text-decoration:underline; color:green;" target="_blank"><strong>موتور DC</strong></a>
+
+<!--26-->
+<div class="english-text">
+<strong>Simulation and Circuit Analysis</strong>
+</div>
+<a href="/teaching/circuiteffort/Simulation-and-Circuit-Analysis" style="text-decoration:underline; color:green;" target="_blank"><strong>شبیه سازی و تحلیل مدار</strong></a>
+
+<!--27-->
+<div class="english-text">
+<strong>تحلیل AC مدارهای الکترونیکی با استفاده از NgSpice و بررسی عملی PySpice</strong>
+</div>
+<a href="/teaching/circuiteffort/AC-Analysis-of-Electronic-Circuits-Using-NgSpice" style="text-decoration:underline; color:green;" target="_blank"><strong>تحلیل AC مدارهای الکترونیکی با استفاده از NgSpice و بررسی عملی PySpice</strong></a>
+
+<!--28-->
+<div class="english-text">
+<strong>Bias Point Analysis</strong>
+</div>
+<a href="/teaching/circuiteffort/BiasPoint" style="text-decoration:underline; color:green;" target="_blank"><strong>Bias Point Analysis</strong></a>
+
+
+<!--29-->
+<div class="english-text">
+<strong>Ohmmeter</strong>
+</div>
+<a href="/teaching/circuiteffort/ohmmeter_from_classical_theory_to_digital_precision" style="text-decoration:underline; color:green;" target="_blank"><strong>اهم‌سنج: از تئوری کلاسیک تا دقت دیجیتال</strong></a>
