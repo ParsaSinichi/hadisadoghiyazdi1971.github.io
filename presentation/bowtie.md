@@ -474,3 +474,61 @@ flowchart LR
     linkStyle 16 stroke:#AA00FF,fill:none
     linkStyle 17 stroke:#2962FF,fill:none
 ```
+
+#  بوتای سیستم هوش مصنوعی برای برنامه‌ریزی، زمان‌بندی و مسیریابی گروه‌های تعمیراتی  
+```mermaid
+flowchart LR
+
+subgraph THREATS
+T1[داده ورودی ناقص]
+T2[مدل بهینه‌سازی نادرست]
+T3[خرابی مسیریابی]
+end
+
+subgraph PREVENTIVE
+P1[اعتبارسنجی داده]
+P2[کنترل قیود سخت]
+P3[پایش سرویس مسیر]
+end
+
+subgraph HAZARD
+H[اختلال در تصمیم‌سازی زمان‌بندی]
+end
+
+subgraph TOP
+TE[برنامه تخصیص نادرست]
+end
+
+subgraph MITIGATIVE
+M1[بازبینی سرپرست]
+M2[بازبرنامه‌ریزی خودکار]
+end
+
+subgraph CONSEQ
+C1[تأخیر تعمیرات]
+C2[ریسک حادثه عملیاتی]
+end
+
+T1 --> P1 --> TE
+T2 --> P2 --> TE
+T3 --> P3 --> TE
+
+H --> TE
+
+TE --> M1 --> C1
+TE --> M2 --> C2
+
+style H fill:#ffd966,stroke:#333,stroke-width:2px
+style TE fill:#ff9900,stroke:#333,stroke-width:3px
+style T1 fill:#6fa8dc
+style T2 fill:#6fa8dc
+style T3 fill:#6fa8dc
+style P1 fill:#93c47d
+style P2 fill:#93c47d
+style P3 fill:#93c47d
+style M1 fill:#b4a7d6
+style M2 fill:#b4a7d6
+style C1 fill:#e06666
+style C2 fill:#e06666
+
+```
