@@ -659,3 +659,151 @@ Operational Decision: پیشنهاد تخصیص جایگزین تیم و مسی�
 قطع سرویس مسیریابی و خطای فاصله‌ها
 
 خطای تخمین نفر-ساعت و سرریز ظرفیت تیم
+
+
+
+flowchart LR
+
+%% ================= BOWTIE WITH WHAT-IF + DIGITAL TWIN =================
+
+subgraph THREATS[Threats / Causes]
+T1[داده ورودی ناقص]
+T2[مدل بهینه‌سازی نادرست]
+T3[خرابی سرویس مسیریابی]
+T4[کمبود منبع مشترک]
+end
+
+subgraph PREVENTIVE[Preventive Barriers]
+P1[اعتبارسنجی چندمرحله‌ای داده]
+P2[کنترل قیود سخت Solver]
+P3[پایش سلامت سرویس مسیر]
+P4[کنترل تداخل منابع]
+end
+
+subgraph HAZARD[Hazard]
+H[اختلال در تصمیم‌سازی زمان‌بندی تعمیرات]
+end
+
+subgraph TOP[Top Event]
+TE[تخصیص و برنامه نادرست تیم]
+end
+
+subgraph MITIGATIVE[Mitigative Barriers]
+M1[بازبینی انسانی سرپرست]
+M2[بازبرنامه‌ریزی سریع]
+M3[Override اضطراری]
+end
+
+subgraph CONSEQ[Consequences]
+C1[تأخیر رفع عیب]
+C2[افزایش خاموشی]
+C3[ریسک حادثه عملیاتی]
+end
+
+
+%% ================= DIGITAL TWIN LAYER =================
+
+subgraph DT[Digital Twin Layer]
+DT1[دوقلو دیجیتال تیم‌ها]
+DT2[دوقلو منابع و تجهیزات]
+DT3[شبیه‌سازی سناریو قبل اجرا]
+DT4[پایش انحراف برنامه]
+end
+
+
+%% ================= AI LAYER =================
+
+subgraph AI[AI Intelligence]
+AI1[Adaptive Barrier Tuning]
+AI2[ریسک‌سنجی بلادرنگ]
+AI3[تصمیم تخصیص جایگزین]
+end
+
+
+%% ================= WHAT-IF SCENARIOS =================
+
+subgraph WHATIF[What-If Scenarios]
+W1[اگر چند کار اضطراری همزمان شود]
+W2[اگر خودرو خراب شود]
+W3[اگر زمان کار کم‌برآورد شود]
+W4[اگر داده مکانی غلط باشد]
+end
+
+
+%% ================= FLOWS LEFT SIDE =================
+
+T1 --> P1 --> TE
+T2 --> P2 --> TE
+T3 --> P3 --> TE
+T4 --> P4 --> TE
+
+H --- TE
+
+
+%% ================= FLOWS RIGHT SIDE =================
+
+TE --> M1 --> C1
+TE --> M2 --> C2
+TE --> M3 --> C3
+
+
+%% ================= DIGITAL TWIN LINKS =================
+
+DT1 --- P2
+DT2 --- P4
+DT3 --- TE
+DT4 --- M2
+
+DT3 --> AI2
+AI2 --> AI1
+AI2 --> AI3
+
+AI1 --> P2
+AI3 --> M2
+
+
+%% ================= WHAT-IF LINKS =================
+
+W1 --> DT3
+W2 --> DT3
+W3 --> DT3
+W4 --> DT3
+
+
+%% ================= STYLES =================
+
+style H fill:#ffd966,stroke:#333,stroke-width:2px
+style TE fill:#ff9900,stroke:#333,stroke-width:3px
+
+style T1 fill:#6fa8dc
+style T2 fill:#6fa8dc
+style T3 fill:#6fa8dc
+style T4 fill:#6fa8dc
+
+style P1 fill:#93c47d
+style P2 fill:#93c47d
+style P3 fill:#93c47d
+style P4 fill:#93c47d
+
+style M1 fill:#b4a7d6
+style M2 fill:#b4a7d6
+style M3 fill:#b4a7d6
+
+style C1 fill:#e06666
+style C2 fill:#e06666
+style C3 fill:#e06666
+
+style DT1 fill:#76a5af
+style DT2 fill:#76a5af
+style DT3 fill:#76a5af
+style DT4 fill:#76a5af
+
+style AI1 fill:#8e7cc3
+style AI2 fill:#8e7cc3
+style AI3 fill:#8e7cc3
+
+style W1 fill:#f6b26b
+style W2 fill:#f6b26b
+style W3 fill:#f6b26b
+style W4 fill:#f6b26b
+
