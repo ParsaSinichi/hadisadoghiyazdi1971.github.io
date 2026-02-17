@@ -530,7 +530,6 @@ style M1 fill:#b4a7d6
 style M2 fill:#b4a7d6
 style C1 fill:#e06666
 style C2 fill:#e06666
-
 ```
 
 
@@ -661,7 +660,7 @@ Operational Decision: پیشنهاد تخصیص جایگزین تیم و مسی�
 خطای تخمین نفر-ساعت و سرریز ظرفیت تیم
 
 
-
+```mermaid
 flowchart LR
 
 %% ================= BOWTIE WITH WHAT-IF + DIGITAL TWIN =================
@@ -806,4 +805,4 @@ style W1 fill:#f6b26b
 style W2 fill:#f6b26b
 style W3 fill:#f6b26b
 style W4 fill:#f6b26b
-
+```
