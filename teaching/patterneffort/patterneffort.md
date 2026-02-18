@@ -134,3 +134,12 @@ Generalization Error</strong>
 </div>
 <a href="/teaching/patterneffort/vla" style="text-decoration:underline; color:green;" target="_blank"><strong> بینایی–زبان–کنش (VLA)</strong></a>
 
+
+<!--17-->
+<div class="english-text">
+<strong>Vision–Language–Action _LLM (VLA)</strong>
+</div>
+<a href="/teaching/patterneffort/vla_LLM" style="text-decoration:underline; color:green;" target="_blank"><strong> بینایی–زبان–کنش (VLA_LLM)</strong></a>
+
+
+
