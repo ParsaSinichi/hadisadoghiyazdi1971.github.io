@@ -2,7 +2,7 @@
 layout: persian
 classes: wide rtl-layout
 dir: rtl
-title:  مدل‌های چندوجهی بزرگ "
+title: " مدل‌های چندوجهی بزرگ "
 permalink: /teaching/patterneffort/vla_LLM/
 author_profile: true
 
