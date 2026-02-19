@@ -265,7 +265,7 @@ with schemdraw.Drawing() as d:
 ```
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="./assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_4_0.png" alt="مدار ساده دیودی" style="width: 55%; height: 55%; object-fit: contain;">
+    <img src="/assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_4_0.png" alt="مدار ساده دیودی" style="width: 55%; height: 55%; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
 مدار ساده دیودی
@@ -418,7 +418,7 @@ plt.grid(True)
 plt.show()
 ```
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="./assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_9_0.png" alt="تحلیل نموداری حساسیت جریان دیود نسبت به ولتاژمنبع" style="width: 55%; height: 55%; object-fit: contain;">
+    <img src="/assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_9_0.png" alt="تحلیل نموداری حساسیت جریان دیود نسبت به ولتاژمنبع" style="width: 55%; height: 55%; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
 تحلیل نموداری حساسیت جریان دیود نسبت به ولتاژمنبع
@@ -499,7 +499,7 @@ plt.show()
 ```
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="./assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_12_0.png" alt="تحلیل نموداری حساسیت ولتاژ دیود نسبت به مقاومت سری" style="width: 55%; height: 55%; object-fit: contain;">
+    <img src="/assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_12_0.png" alt="تحلیل نموداری حساسیت ولتاژ دیود نسبت به مقاومت سری" style="width: 55%; height: 55%; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
 تحلیل نموداری حساسیت ولتاژ دیود نسبت به مقاومت سری
@@ -619,7 +619,7 @@ plt.show()
 ```
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="./assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_14_0.png" alt="تحلیل حساسیت ولتاژ دیود نسبت به دما" style="width: 55%; height: 55%; object-fit: contain;">
+    <img src="/assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_14_0.png" alt="تحلیل حساسیت ولتاژ دیود نسبت به دما" style="width: 55%; height: 55%; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
 تحلیل حساسیت ولتاژ دیود نسبت به دما
@@ -733,7 +733,7 @@ plt.show()
 ```
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="./assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_17_0.png" alt="تحلیل نموداری حساسیت جریان دیود نسبت به جریان اشباع" style="width: 55%; height: 55%; object-fit: contain;">
+    <img src="/assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_17_0.png" alt="تحلیل نموداری حساسیت جریان دیود نسبت به جریان اشباع" style="width: 55%; height: 55%; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
 تحلیل نموداری حساسیت جریان دیود نسبت به جریان اشباع
@@ -850,7 +850,7 @@ plt.show()
 ```
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="./assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_20_0.png" alt="تحلیل نموداری حساسیت ولتاژ دیود نسبت به جریان اشباع" style="width: 55%; height: 55%; object-fit: contain;">
+    <img src="/assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_20_0.png" alt="تحلیل نموداری حساسیت ولتاژ دیود نسبت به جریان اشباع" style="width: 55%; height: 55%; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
 تحلیل نموداری حساسیت ولتاژ دیود نسبت به جریان اشباع
@@ -932,7 +932,7 @@ with schemdraw.Drawing() as d:
 ```
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <img src="./assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_26_0.png" alt="شماتیک مدار یکسوساز نیم‌موج" style="width: 55%; height: 55%; object-fit: contain;">
+    <img src="/assets/circuiteffort/Diode-sensitivity-Analysis-photos/output_26_0.png" alt="شماتیک مدار یکسوساز نیم‌موج" style="width: 55%; height: 55%; object-fit: contain;">
 </div>
 <div class="caption" style="text-align: center; margin-top: 8px;">
 شماتیک مدار یکسوساز نیم‌موج
