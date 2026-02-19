@@ -225,3 +225,10 @@ header:
 <strong>Ohmmeter</strong>
 </div>
 <a href="/teaching/circuiteffort/ohmmeter_from_classical_theory_to_digital_precision" style="text-decoration:underline; color:green;" target="_blank"><strong>اهم‌سنج: از تئوری کلاسیک تا دقت دیجیتال</strong></a>
+
+
+<!--30-->
+<div class="english-text">
+<strong>Diode sensitivity Analysis</strong>
+</div>
+<a href="/teaching/circuiteffort/Diode-sensitivity-Analysis" style="text-decoration:underline; color:green;" target="_blank"><strong>تحلیل حساسیت در مدارات دیودی</strong></a>
